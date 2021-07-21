@@ -9,7 +9,6 @@ if ($a > 0) {
 
 echo "<hr>";
 
-echo "<hr />";
 //雙向選擇 if ... else 
 $a = -5;
 if ($a > 0) {
@@ -36,3 +35,26 @@ if ($score >= 60 && $score < 70) {
 }
 
 echo "<hr />";
+
+//switch條件控制
+$direction = "南";
+switch ($direction) {
+    case '東':
+        echo "我要往東走";
+        break;
+
+    case '南':
+        echo "我要往南走";
+        break;
+
+    case '西':
+        echo "我要往西走";
+        break;
+
+    case '北':
+        echo "我要往北走";
+        break;
+
+    default:
+        echo "我不知道要往哪裡走";
+}
