@@ -26,6 +26,7 @@ if ($_FILES["fileUpload"]["error"] === 0) {
      * i: 兩位數(24 小時制)的分
      * s: 兩位數(24 小時制)的秒
      */
+
     //1. 建立時間字串
     $fileName = date("YmdHis");
     //2. 將時間字串結合副檔名
